@@ -3,24 +3,6 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light:#eaeaea;
-/* @mixin box_sizing{
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
- */
-
-/* .debug_dump{
-  clear:both;
-  float:left;
-  width:100%;
-  margin-top:45px;
-  @includebox_sizing;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-} */
-
 body{
   padding-top:60px;
   }
@@ -141,3 +123,19 @@ input,textarea,select,.uneditable-input{
 input{
   height:auto!important;
 }
+<<<<<<< HEAD
+=======
+#error_explanation{
+  color:red;
+  ul{
+    color:red;
+    margin: 0 0 30px 0;
+    }
+  }
+.field_with_errors{
+  @extend .has-error;
+  .form-control{
+    color:$state-danger-text;
+    }
+  }
+>>>>>>> complete chapter 7
