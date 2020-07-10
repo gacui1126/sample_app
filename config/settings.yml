@@ -1,0 +1,7 @@
+enabled_locales: ["en", "ja"]
+client:
+  host: "localhost:3000"
+
+NAME_MAXIMUM: 50
+EMAIL_MAXIMUM: 255
+PASSWORD_MINIMUM: 6
