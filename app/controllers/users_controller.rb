@@ -9,6 +9,9 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+    return if @user
+    flash[:warning] = "User not found"
+    redirect_to root_pat
   end
   def create
   @user = User.new(user_params)
